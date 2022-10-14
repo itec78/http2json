@@ -9,7 +9,7 @@ Clone this repo and then add this to your `docker-compose.yml` file:
 
 ```yaml
   http2json:
-    build: https://github.com/itec78/http2json.git
+    build: https://github.com/traccartools/http2json.git
     container_name: http2json  # optional
     environment:
       - "LOG_LEVEL=DEBUG"  # optional, defaults to INFO
